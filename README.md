@@ -11,7 +11,7 @@ In order to run the projects on your local machine follow these instructions
 Get a copy of this project by simply running the git clone command.
 
 ``` git
-git clone https://github.com/chonyy/AI-basketball-analysis.git
+git clone https://github.com/mfijalkowska/COVID-Vaccine-Sentiment-Analysis
 ```
 
 ### Prerequisities

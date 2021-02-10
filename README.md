@@ -50,7 +50,7 @@ The topology is kept simple and each bolt is set with parallelism of 1 thread.
 ![picture alt](media/topology.png)
 
 Pipeline consists of:
-1. TwitterSpout - reads the tweets from the Twitter
+1. TwitterSpout - reads the tweets from Twitter
 API, converts them into tuple format and emits to SortingBolt.
 
 2. SortingBolt - processes tweet, i.e., filters out all irrelevant words, checks for COVID-related hashtags and keeps a count for the number of tweets.
@@ -59,11 +59,11 @@ API, converts them into tuple format and emits to SortingBolt.
 occurences. Saves the score in an array that is emitted together with the tweet text and numOfTweets to
 NegativeBolt.
 
-4. NegativeBot - similarly to PositiveBolt, here the
+4. NegativeBolt - similarly to PositiveBolt, here the
 number of negative words is counted and stored in the
 array.
 
 5. ScoreBolt - final bolt that determines whether the
 tweet is positive, negative or neutral. It also counts how
 many tweets were found in total, outputs current tweet
-with the sentiment (1=positive, -1=negative, otherwise neutral=0).
+and calculated sentiment (1=positive, -1=negative, otherwise neutral=0).

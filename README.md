@@ -11,7 +11,7 @@ In order to run the projects on your local machine follow these instructions
 Get a copy of this project by simply running the git clone command.
 
 ``` git
-git clone https://github.com/mfijalkowska/COVID-Vaccine-Sentiment-Analysis
+$ git clone https://github.com/mfijalkowska/COVID-Vaccine-Sentiment-Analysis
 ```
 
 ### Prerequisities
@@ -24,11 +24,11 @@ Storm setup:
 ``` git
 apache-storm-0.9.3
 ```
-from archive.apache.org/dist/storm/apache-storm-0.9.3
+from https://archive.apache.org/dist/storm/apache-storm-0.9.3/
 #### 2. Move to a new Storm directory and unpack
 ``` git
-sudo mv apache-storm-0.9.3 /usr/local/storm
-tar -xzf apache-storm-0.9.3.tar.gz 
+$ sudo mv apache-storm-0.9.3 /usr/local/storm
+$ tar -xzf apache-storm-0.9.3.tar.gz 
 ```
 #### 3. Add Storm to the PATH
 ``` git

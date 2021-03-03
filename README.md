@@ -4,7 +4,7 @@ This project analyses tweets related to COVID19 vaccine using ApacheStorm framew
 ## 1. Getting Started
 
 
-In order to run the projects on your local machine follow these instructions
+In order to run the project on your local machine follow these instructions
 
 ### Get a copy
 

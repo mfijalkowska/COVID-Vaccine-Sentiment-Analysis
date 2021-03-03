@@ -1,5 +1,5 @@
 # Twitter COVID Vaccine Sentiment Analysis :mask::syringe:
-This project analyses tweets related to COVID19 vaccine using uses ApacheStorm framework and twitter API.
+This project analyses tweets related to COVID19 vaccine using ApacheStorm framework and twitter API.
 
 ## 1. Getting Started
 

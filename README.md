@@ -40,7 +40,7 @@ The project is deployed in local mode which simulates Storm Cluster three main c
 
  2. Zookeeper – coordinates the cluster and maintains the shared data with synchronizations techiniques making it very robust. Nimbus depends on zookeeper to monitor working node status.
  
- 3. Supervisor – daemin run by a worker node. Listens for
+ 3. Supervisor – daemon run by a worker node. Listens for
 work assigned to its machine, starts & stops worker processes if necessary (based on what Nimbus has assigned
 to it). 
 
